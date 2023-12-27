@@ -1,0 +1,36 @@
+.hero {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+
+.hero__container {
+  display: flex;
+  align-items: center; 
+}
+
+.hero__left {
+  margin-left: -155px;
+  margin-right: 110px;
+  line-height: 0;
+}
+
+.hero__right {
+  max-width: 630px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.hero__description {
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+}
+
