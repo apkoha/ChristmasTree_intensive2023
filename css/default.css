@@ -49,6 +49,10 @@ h1, h2 {
   display: none;
 }
 
+h1, h2, h3, p {
+  margin: 0;
+}
+
 .container {
   max-width: 1390px;
   padding: 0 50px;
@@ -77,5 +81,17 @@ button {
 @media (max-width: 1440px) {
   .container {
     padding: 0 42px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 39px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 0 10px;
   }
 }
