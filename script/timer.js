@@ -32,7 +32,6 @@ const timer = () => {
     const deadLine = new Date(2025, 0, 1, 0, 0, 0);
     const now = new Date();
     const timeRemaining = (deadLine - now) / 1000;
-    console.log("timeRemaining: ", timeRemaining);
 
     const seconds = Math.floor(timeRemaining % 60);
     const minutes = Math.floor((timeRemaining / 60) % 60);
