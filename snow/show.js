@@ -42,7 +42,7 @@ const createSnow = (min, max, saturation) => {
 
     snowItem.style.cssText = `
     left: ${getRandowIntInclusive(0, 100)}%;
-    background-image: url("/snow/snowflake${getRandowIntInclusive(
+    background-image: url("./snow/snowflake${getRandowIntInclusive(
       1,
       count
     )}.svg");
